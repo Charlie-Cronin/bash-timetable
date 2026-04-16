@@ -14,17 +14,17 @@ this changes the file permissions to be executable
 
 the file should be run in the format 
 ```bash
-  timetable.sh start_time end_time start_day end_day path
+  ./timetable.sh start_time end_time start_day end_day path
 ```
 where the start time and end time are in 24 hour clock, the start_day and end_day are the day index starting with monday as 0
 and the path is the path to the json file either locally on the disk or as a http reference 
 
 example usages:
 ``` bash
-  /timetable.sh 9 18 0 4  https://your-domain.com/timetable.json
+  ./timetable.sh 9 18 0 4  https://your-domain.com/timetable.json
 ```
 ``` bash
-  /timetable.sh 9 18 0 4  ~/Downloads/timetable.json
+  ./timetable.sh 9 18 0 4  ~/Downloads/timetable.json
 ```
 
 ## JSON Formatting 
