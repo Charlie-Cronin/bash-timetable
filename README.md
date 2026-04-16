@@ -76,7 +76,7 @@ a sample for a monday is listed below
               "type":"lecture"
           },
           "11":{
-              "class":"Linux Admin,
+              "class":"Linux Admin",
               "room":"C134",
               "type":"lab"
           },
