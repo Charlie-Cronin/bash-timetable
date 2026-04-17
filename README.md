@@ -11,6 +11,14 @@ download the timetable file to the folder you would like to keep it, then run
 ```
 this changes the file permissions to be executable 
 
+The file is also dependant on python and jq being installed on the machine, if these are not preinstalled on your distrobution, please run the following command or your package managers equivalent
+```bash
+  sudo apt install jq
+```
+```bash
+  sudo apt install python
+```
+
 ## How to use 
 
 the file should be run in the format 
